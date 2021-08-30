@@ -1,0 +1,6 @@
+framework module Pods_GuluwaLa_GuluwaLaUITests {
+  umbrella header "Pods-GuluwaLa-GuluwaLaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
