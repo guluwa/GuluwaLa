@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		04EB68A826DCB39F000C2451 /* DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB689E26DCB39F000C2451 /* DesignKit.framework */; };
-		04EB68AD26DCB39F000C2451 /* DesignKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68AC26DCB39F000C2451 /* DesignKitTests.swift */; };
 		04EB68AF26DCB39F000C2451 /* DesignKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EB68A126DCB39F000C2451 /* DesignKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EB68CC26DE125A000C2451 /* DesignKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68CA26DE125A000C2451 /* DesignKitTests.swift */; };
+		04EB68CD26DE125B000C2451 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04EB68CB26DE125A000C2451 /* Info.plist */; };
+		04EB68D026DE254E000C2451 /* CAGradientLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68CF26DE254E000C2451 /* CAGradientLayer+Extension.swift */; };
+		04EB68D226DE26F8000C2451 /* CATransform3D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68D126DE26F8000C2451 /* CATransform3D+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +30,10 @@
 		04EB68A126DCB39F000C2451 /* DesignKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
 		04EB68A226DCB39F000C2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04EB68A726DCB39F000C2451 /* DesignKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04EB68AC26DCB39F000C2451 /* DesignKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignKitTests.swift; sourceTree = "<group>"; };
-		04EB68AE26DCB39F000C2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB68CA26DE125A000C2451 /* DesignKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignKitTests.swift; sourceTree = "<group>"; };
+		04EB68CB26DE125A000C2451 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB68CF26DE254E000C2451 /* CAGradientLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extension.swift"; sourceTree = "<group>"; };
+		04EB68D126DE26F8000C2451 /* CATransform3D+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CATransform3D+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				04EB68A026DCB39F000C2451 /* DesignKit */,
-				04EB68AB26DCB39F000C2451 /* DesignKitTests */,
 				04EB689F26DCB39F000C2451 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,19 +75,30 @@
 		04EB68A026DCB39F000C2451 /* DesignKit */ = {
 			isa = PBXGroup;
 			children = (
+				04EB68CE26DE1264000C2451 /* CoreAnimation */,
 				04EB68A126DCB39F000C2451 /* DesignKit.h */,
 				04EB68A226DCB39F000C2451 /* Info.plist */,
+				04EB68C926DE125A000C2451 /* DesignKitTests */,
 			);
 			path = DesignKit;
 			sourceTree = "<group>";
 		};
-		04EB68AB26DCB39F000C2451 /* DesignKitTests */ = {
+		04EB68C926DE125A000C2451 /* DesignKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				04EB68AC26DCB39F000C2451 /* DesignKitTests.swift */,
-				04EB68AE26DCB39F000C2451 /* Info.plist */,
+				04EB68CA26DE125A000C2451 /* DesignKitTests.swift */,
+				04EB68CB26DE125A000C2451 /* Info.plist */,
 			);
 			path = DesignKitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		04EB68CE26DE1264000C2451 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04EB68CF26DE254E000C2451 /* CAGradientLayer+Extension.swift */,
+				04EB68D126DE26F8000C2451 /* CATransform3D+Extension.swift */,
+			);
+			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB68CD26DE125B000C2451 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB68CC26DE125A000C2451 /* DesignKitTests.swift in Sources */,
+				04EB68D226DE26F8000C2451 /* CATransform3D+Extension.swift in Sources */,
+				04EB68D026DE254E000C2451 /* CAGradientLayer+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +221,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EB68AD26DCB39F000C2451 /* DesignKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +413,7 @@
 		04EB68B626DCB39F000C2451 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 325J3J39TM;
 				INFOPLIST_FILE = DesignKitTests/Info.plist;
@@ -413,6 +432,7 @@
 		04EB68B726DCB39F000C2451 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 325J3J39TM;
 				INFOPLIST_FILE = DesignKitTests/Info.plist;

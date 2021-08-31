@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import QuartzCore
 @testable import DesignKit
 
 class DesignKitTests: XCTestCase {
