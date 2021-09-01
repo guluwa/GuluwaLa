@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04EB68A826DCB39F000C2451 /* DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB689E26DCB39F000C2451 /* DesignKit.framework */; };
 		04EB68AF26DCB39F000C2451 /* DesignKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EB68A126DCB39F000C2451 /* DesignKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04EB68CC26DE125A000C2451 /* DesignKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68CA26DE125A000C2451 /* DesignKitTests.swift */; };
-		04EB68CD26DE125B000C2451 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04EB68CB26DE125A000C2451 /* Info.plist */; };
 		04EB68D026DE254E000C2451 /* CAGradientLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68CF26DE254E000C2451 /* CAGradientLayer+Extension.swift */; };
 		04EB68D226DE26F8000C2451 /* CATransform3D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68D126DE26F8000C2451 /* CATransform3D+Extension.swift */; };
+		04EB68EA26DF5EEC000C2451 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB68E926DF5EEC000C2451 /* UIColor+Extension.swift */; };
+		04EB690226DF6D81000C2451 /* DesignKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB690126DF6D81000C2451 /* DesignKitTests.swift */; };
+		04EB690426DF6D81000C2451 /* DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB689E26DCB39F000C2451 /* DesignKit.framework */; };
+		04EB690B26DF6E20000C2451 /* CAGradientLayerExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB690A26DF6E20000C2451 /* CAGradientLayerExtensionTests.swift */; };
+		04EB690F26DF6F90000C2451 /* CATransform3DExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB690E26DF6F90000C2451 /* CATransform3DExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04EB68A926DCB39F000C2451 /* PBXContainerItemProxy */ = {
+		04EB690526DF6D81000C2451 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04EB689526DCB39F000C2451 /* Project object */;
 			proxyType = 1;
@@ -29,11 +31,14 @@
 		04EB689E26DCB39F000C2451 /* DesignKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EB68A126DCB39F000C2451 /* DesignKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
 		04EB68A226DCB39F000C2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04EB68A726DCB39F000C2451 /* DesignKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04EB68CA26DE125A000C2451 /* DesignKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignKitTests.swift; sourceTree = "<group>"; };
-		04EB68CB26DE125A000C2451 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04EB68CF26DE254E000C2451 /* CAGradientLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extension.swift"; sourceTree = "<group>"; };
 		04EB68D126DE26F8000C2451 /* CATransform3D+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CATransform3D+Extension.swift"; sourceTree = "<group>"; };
+		04EB68E926DF5EEC000C2451 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		04EB68FF26DF6D81000C2451 /* DesignKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB690126DF6D81000C2451 /* DesignKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignKitTests.swift; sourceTree = "<group>"; };
+		04EB690326DF6D81000C2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB690A26DF6E20000C2451 /* CAGradientLayerExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtensionTests.swift; sourceTree = "<group>"; };
+		04EB690E26DF6F90000C2451 /* CATransform3DExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATransform3DExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,11 +49,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04EB68A426DCB39F000C2451 /* Frameworks */ = {
+		04EB68FC26DF6D81000C2451 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EB68A826DCB39F000C2451 /* DesignKit.framework in Frameworks */,
+				04EB690426DF6D81000C2451 /* DesignKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				04EB68A026DCB39F000C2451 /* DesignKit */,
+				04EB690026DF6D81000C2451 /* DesignKitTests */,
 				04EB689F26DCB39F000C2451 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				04EB689E26DCB39F000C2451 /* DesignKit.framework */,
-				04EB68A726DCB39F000C2451 /* DesignKitTests.xctest */,
+				04EB68FF26DF6D81000C2451 /* DesignKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,21 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				04EB68CE26DE1264000C2451 /* CoreAnimation */,
+				04EB68E626DF5E76000C2451 /* UIKit */,
 				04EB68A126DCB39F000C2451 /* DesignKit.h */,
 				04EB68A226DCB39F000C2451 /* Info.plist */,
-				04EB68C926DE125A000C2451 /* DesignKitTests */,
 			);
 			path = DesignKit;
 			sourceTree = "<group>";
-		};
-		04EB68C926DE125A000C2451 /* DesignKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				04EB68CA26DE125A000C2451 /* DesignKitTests.swift */,
-				04EB68CB26DE125A000C2451 /* Info.plist */,
-			);
-			path = DesignKitTests;
-			sourceTree = SOURCE_ROOT;
 		};
 		04EB68CE26DE1264000C2451 /* CoreAnimation */ = {
 			isa = PBXGroup;
@@ -99,6 +96,33 @@
 				04EB68D126DE26F8000C2451 /* CATransform3D+Extension.swift */,
 			);
 			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		04EB68E626DF5E76000C2451 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				04EB68E926DF5EEC000C2451 /* UIColor+Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		04EB68F726DF69B1000C2451 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04EB690A26DF6E20000C2451 /* CAGradientLayerExtensionTests.swift */,
+				04EB690E26DF6F90000C2451 /* CATransform3DExtensionTests.swift */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		04EB690026DF6D81000C2451 /* DesignKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EB690126DF6D81000C2451 /* DesignKitTests.swift */,
+				04EB68F726DF69B1000C2451 /* CoreAnimation */,
+				04EB690326DF6D81000C2451 /* Info.plist */,
+			);
+			path = DesignKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,22 +157,22 @@
 			productReference = 04EB689E26DCB39F000C2451 /* DesignKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		04EB68A626DCB39F000C2451 /* DesignKitTests */ = {
+		04EB68FE26DF6D81000C2451 /* DesignKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04EB68B526DCB39F000C2451 /* Build configuration list for PBXNativeTarget "DesignKitTests" */;
+			buildConfigurationList = 04EB690726DF6D81000C2451 /* Build configuration list for PBXNativeTarget "DesignKitTests" */;
 			buildPhases = (
-				04EB68A326DCB39F000C2451 /* Sources */,
-				04EB68A426DCB39F000C2451 /* Frameworks */,
-				04EB68A526DCB39F000C2451 /* Resources */,
+				04EB68FB26DF6D81000C2451 /* Sources */,
+				04EB68FC26DF6D81000C2451 /* Frameworks */,
+				04EB68FD26DF6D81000C2451 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04EB68AA26DCB39F000C2451 /* PBXTargetDependency */,
+				04EB690626DF6D81000C2451 /* PBXTargetDependency */,
 			);
 			name = DesignKitTests;
 			productName = DesignKitTests;
-			productReference = 04EB68A726DCB39F000C2451 /* DesignKitTests.xctest */;
+			productReference = 04EB68FF26DF6D81000C2451 /* DesignKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +188,7 @@
 						CreatedOnToolsVersion = 12.5.1;
 						LastSwiftMigration = 1250;
 					};
-					04EB68A626DCB39F000C2451 = {
+					04EB68FE26DF6D81000C2451 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -183,7 +207,7 @@
 			projectRoot = "";
 			targets = (
 				04EB689D26DCB39F000C2451 /* DesignKit */,
-				04EB68A626DCB39F000C2451 /* DesignKitTests */,
+				04EB68FE26DF6D81000C2451 /* DesignKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,11 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EB68CD26DE125B000C2451 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04EB68A526DCB39F000C2451 /* Resources */ = {
+		04EB68FD26DF6D81000C2451 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,26 +234,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EB68CC26DE125A000C2451 /* DesignKitTests.swift in Sources */,
+				04EB68EA26DF5EEC000C2451 /* UIColor+Extension.swift in Sources */,
 				04EB68D226DE26F8000C2451 /* CATransform3D+Extension.swift in Sources */,
 				04EB68D026DE254E000C2451 /* CAGradientLayer+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04EB68A326DCB39F000C2451 /* Sources */ = {
+		04EB68FB26DF6D81000C2451 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB690226DF6D81000C2451 /* DesignKitTests.swift in Sources */,
+				04EB690F26DF6F90000C2451 /* CATransform3DExtensionTests.swift in Sources */,
+				04EB690B26DF6E20000C2451 /* CAGradientLayerExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04EB68AA26DCB39F000C2451 /* PBXTargetDependency */ = {
+		04EB690626DF6D81000C2451 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04EB689D26DCB39F000C2451 /* DesignKit */;
-			targetProxy = 04EB68A926DCB39F000C2451 /* PBXContainerItemProxy */;
+			targetProxy = 04EB690526DF6D81000C2451 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -410,10 +436,9 @@
 			};
 			name = Release;
 		};
-		04EB68B626DCB39F000C2451 /* Debug */ = {
+		04EB690826DF6D81000C2451 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 325J3J39TM;
 				INFOPLIST_FILE = DesignKitTests/Info.plist;
@@ -429,10 +454,9 @@
 			};
 			name = Debug;
 		};
-		04EB68B726DCB39F000C2451 /* Release */ = {
+		04EB690926DF6D81000C2451 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 325J3J39TM;
 				INFOPLIST_FILE = DesignKitTests/Info.plist;
@@ -469,11 +493,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04EB68B526DCB39F000C2451 /* Build configuration list for PBXNativeTarget "DesignKitTests" */ = {
+		04EB690726DF6D81000C2451 /* Build configuration list for PBXNativeTarget "DesignKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04EB68B626DCB39F000C2451 /* Debug */,
-				04EB68B726DCB39F000C2451 /* Release */,
+				04EB690826DF6D81000C2451 /* Debug */,
+				04EB690926DF6D81000C2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

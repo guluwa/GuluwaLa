@@ -2,7 +2,7 @@
 //  GuluwaLaUITests.swift
 //  GuluwaLaUITests
 //
-//  Created by mac on 2021/8/30.
+//  Created by Guluwa on 2021/8/30.
 //
 
 import XCTest

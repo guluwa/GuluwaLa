@@ -2,7 +2,7 @@
 //  CATransform3D+Extension.swift
 //  DesignKit
 //
-//  Created by mac on 2021/8/31.
+//  Created by Guluwa on 2021/8/31.
 //
 
 import QuartzCore
@@ -10,7 +10,7 @@ import CoreGraphics
 
 // MARK: - Equatable
 
-public extension CATransform3D: Equatable {
+extension CATransform3D: Equatable {
     /// 用于判断2个变换是否一致
     /// - Parameters:
     ///   - lhs: 当前值
@@ -27,7 +27,7 @@ public extension CATransform3D: Equatable {
 public extension CATransform3D {
     // 变换初始值: [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
     @inlinable
-    static var identity: CATransform3D = { CATransform3DIdentity }
+    static var identity: CATransform3D { CATransform3DIdentity }
 }
 
 // MARK: - 构造器

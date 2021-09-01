@@ -2,12 +2,10 @@
 //  DesignKitTests.swift
 //  DesignKitTests
 //
-//  Created by mac on 2021/8/30.
+//  Created by mac on 2021/9/1.
 //
 
 import XCTest
-import QuartzCore
-@testable import DesignKit
 
 class DesignKitTests: XCTestCase {
 
@@ -26,7 +24,7 @@ class DesignKitTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

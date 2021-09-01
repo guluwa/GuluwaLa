@@ -2,7 +2,7 @@
 //  CAGradientLayer+Extension.swift
 //  DesignKit
 //
-//  Created by mac on 2021/8/31.
+//  Created by Guluwa on 2021/8/31.
 //
 
 import QuartzCore
